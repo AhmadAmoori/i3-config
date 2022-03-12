@@ -56,7 +56,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap -model pc104 -layout us,ir -variant ,, -option grp:alt_shift_toggle
 
 # Run polybar
-exec_always --no-startup-id ~/w/dotfiles/loadbar 
+exec_always --no-startup-id ./loadbar 
 
 # Run picom
 exec_always --no-startup-id picom &
